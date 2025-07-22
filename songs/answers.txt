@@ -1,0 +1,7 @@
+SELECT AVG(energy), AVG(danceability), AVG(valence) FROM songs;
+
+The way I’ve calculated this aura might not be very representative of the listener is that the argument is not comprehensive enough,
+might be this listener prefer to a specific artists or this listener prefer to specific genre like Anime or sth, so the avg of 3 arguments,
+AVG(energy), AVG(danceability), AVG(valence) might not be very representative of the listener.
+
+If can take artists, tempo, speechiness into consideration might be a good way.

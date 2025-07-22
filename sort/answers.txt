@@ -1,0 +1,27 @@
+sort1 uses: Bubble sort.
+
+How do you know?: 
+I recorded all runtime, and sort2 is the fastest sort, and the number is bigger the difference is more clearer.
+So sort1 is not merge sort, then we know the Big omega of selection sort is n squre, the sort3 is the sloweset in sorted.txt, so sort3 is selection sort, then we know sort1 is bubble sort.
+	random5000	random10000	random50000	reversed5000	reversed10000	reversed50000	sorted5000	sorted10000	sorted50000
+sort1	0m0.065s	0m0.224s	0m5.818s	0m0.095s	0m0.265s	0m4.862s	0m0.042s	0m0.089s	0m0.582s	Might be bubble sort
+sort2	0m0.030s	0m0.078s	0m0.500s	0m0.033s	0m0.074s	0m0.648s	0m0.044s	0m0.077s	0m0.496s	Should be merge sort
+sort3	0m0.060s	0m0.158s	0m2.310s	0m0.053s	0m0.147s	0m2.557s	0m0.048s	0m0.152s	0m2.457s	Should be selection sort
+Fatest	sort2	sort2	sort2	sort2	sort2	sort2	sort1	sort2	sort2
+Slowest	sort1	sort1	sort1	sort1	sort1	sort1	sort3	sort3	sort3
+							All close	sort1 sort2 close	sort1 sort2 close
+
+	O(N)	Omega(N)
+Seletion sort	n squre	n squre
+Bubble sort	n squre	n
+Merget sort	logn	logn
+
+sort2 uses: Merge sort.
+
+How do you know?: 
+By the record, I could know that sort2 is the fastest, especially when the numbers are larger, so the sort2 is Merge sort by the reason of Big O and Omega O.
+
+sort3 uses: Selection sort.
+
+How do you know?: 
+By the record, I could know that sort3 is the slowest, and could know when we run the sorted.txt, which still take time longer than the others,  so the sort3 is selection sort by the reason of Big O and Omega O.
